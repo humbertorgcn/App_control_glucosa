@@ -26,7 +26,7 @@ Aplicación web (PWA) para registrar y visualizar los niveles de glucosa en sang
 
 ## Estado del proyecto
 
-🚧 En desarrollo.
+En desarrollo.
 
 Pendiente:
 - [ ] Programación del cron diario en Supabase Edge Functions
