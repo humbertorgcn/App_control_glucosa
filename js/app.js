@@ -2,7 +2,7 @@
 // Iremos anadiendo aqui la inicializacion de las distintas pantallas.
 
 // Punto de entrada de la aplicación.
-
+import "./setup.js";
 import { comprobarSesionInicial } from "./auth.js";
 
 comprobarSesionInicial();

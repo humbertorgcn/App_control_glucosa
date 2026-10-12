@@ -34,7 +34,30 @@
   <!-- Vista de configuración inicial: visible cuando hay sesión pero NO hay perfil -->
   <section id="setup-view" hidden>
     <h1>Configura tu perfil</h1>
-    <p>Aquí irá el asistente de configuración inicial.</p>
+
+    <div class="setup-step" id="setup-step-1">
+      <h2>Paso 1 de 5: ¿Cómo te llamas?</h2>
+      <input type="text" id="setup-nombre" placeholder="Tu nombre" />
+      <button type="button" id="setup-next-1">Siguiente</button>
+    </div>
+
+    <div class="setup-step" id="setup-step-2" hidden>
+      <h2>Paso 2 de 5: ¿Qué tipo de diabetes tienes?</h2>
+      <select id="setup-tipo">
+        <option value="tipo1">Tipo 1</option>
+        <option value="tipo2">Tipo 2</option>
+        <option value="otro">Otro</option>
+      </select>
+      <button type="button" id="setup-next-2">Siguiente</button>
+    </div>
+
+    <div class="setup-step" id="setup-step-3" hidden>
+      <h2>Paso 3 de 5: ¿Cuántos años tienes?</h2>
+      <input type="number" id="setup-anios" min="0" max="100" />
+      <button type="button" id="setup-next-3">Siguiente</button>
+    </div>
+
+
   </section>
 
   <!-- Vista principal: visible cuando SÍ hay sesión -->
