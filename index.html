@@ -51,10 +51,22 @@
       <button type="button" id="setup-next-2">Siguiente</button>
     </div>
 
-    <div class="setup-step" id="setup-step-3" hidden>
+    <div class="setup-step" id="setup-step-3" hidden required>
       <h2>Paso 3 de 5: ¿Cuántos años tienes?</h2>
-      <input type="number" id="setup-anios" min="0" max="100" />
+      <input type="number" id="setup-edad" min="0" max="120" />
       <button type="button" id="setup-next-3">Siguiente</button>
+    </div>
+
+    <div class="setup-step" id="setup-step-4" hidden>
+      <h2>Paso 4 de 5: ¿Cuántas veces al día te mides la glucosa?</h2>
+      <input type="number" id="setup-mediciones" min="1" max="6" />
+      <button type="button" id="setup-next-4">Siguiente</button>
+    </div>
+  
+    <div class="setup-step" id="setup-step-5" hidden>
+      <h2>Paso 5 de 5: ¿A qué horas te mides?</h2>
+      <div id="setup-horas"></div>
+      <button type="button" id="setup-finish">Terminar</button>
     </div>
 
 
